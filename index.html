@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Developer Portfolio — AIとの協業で生まれたプロジェクトのショーケース">
+  <meta property="og:title" content="AI Developer Portfolio">
+  <meta property="og:description" content="Claude・GPT・Gemini を活用した開発プロジェクトのショーケース">
+  <meta property="og:type" content="website">
+  <title>AI Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#" class="nav-logo">AI<span class="dot">.</span>Portfolio</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="badge fade-up"><span class="badge-dot"></span>AI-Powered Development</div>
+      <h1 class="hero-title fade-up">AIとつくる、<br><span class="accent">やさしいものづくり</span></h1>
+      <p class="hero-desc fade-up">
+        Claude・GPT・Gemini を活用した開発プロジェクトのショーケース。<br>
+        AIの力で、アイデアをかたちにしています。
+      </p>
+      <div class="metrics fade-up">
+        <div>
+          <div class="metric-val">12<span class="plus">+</span></div>
+          <div class="metric-label">Projects</div>
+        </div>
+        <div>
+          <div class="metric-val">5<span class="plus">+</span></div>
+          <div class="metric-label">AI Models</div>
+        </div>
+        <div>
+          <div class="metric-val">2025</div>
+          <div class="metric-label">Year</div>
+        </div>
+      </div>
+      <div class="hero-actions fade-up">
+        <a href="#works" class="btn btn-primary">View Projects</a>
+        <a href="#about" class="btn btn-ghost">About Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-divider fade-up"></div>
+      <div class="section-label fade-up">About</div>
+      <h2 class="section-title fade-up">AI × Development</h2>
+      <div class="about-content">
+        <p class="fade-up">
+          Claude Code、Cursor、GitHub Copilot を活用し、
+          従来では考えられないスピードと品質でプロジェクトを実現しています。
+        </p>
+        <p class="fade-up">
+          LP制作からフルスタックWebアプリケーション、AIチャットボット、
+          画像生成ツールまで、幅広いプロジェクトに取り組んでいます。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works -->
+  <section class="section works" id="works">
+    <div class="container">
+      <div class="section-divider fade-up"></div>
+      <div class="section-label fade-up">Works</div>
+      <h2 class="section-title fade-up">Featured Projects</h2>
+      <p class="section-sub fade-up">AIとの協業で生まれたプロジェクトたち</p>
+
+      <div class="works-grid">
+        <!-- 1: AI Chat Assistant — Featured -->
+        <div class="work-card featured fade-up">
+          <div class="frame-header">
+            <div class="dots"><span class="r"></span><span class="y"></span><span class="g"></span></div>
+            <div class="url-bar">ai-chat-assistant.vercel.app</div>
+          </div>
+          <div class="frame-body">
+            <div class="screen screen-chat">
+              <div class="sidebar"><div></div><div></div><div></div><div></div></div>
+              <div class="main">
+                <div class="bubble a"></div>
+                <div class="bubble u"></div>
+                <div class="bubble a lg"></div>
+                <div class="bubble u" style="width:55%"></div>
+                <div class="bubble a" style="width:50%"></div>
+                <div class="input-bar"></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="card-tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">Claude API</span>
+              <span class="tag">Streaming</span>
+            </div>
+            <h3>AI Chat Assistant</h3>
+            <p>Claude APIを活用したリアルタイムチャットアプリ。ストリーミング応答、会話履歴管理に対応。</p>
+          </div>
+        </div>
+
+        <!-- 2: Product LP -->
+        <div class="work-card fade-up">
+          <div class="frame-header">
+            <div class="dots"><span class="r"></span><span class="y"></span><span class="g"></span></div>
+            <div class="url-bar">product-lp.pages.dev</div>
+          </div>
+          <div class="frame-body">
+            <div class="screen screen-lp">
+              <div class="lp-hero"></div>
+              <div class="lp-cards"><div class="lp-card"></div><div class="lp-card"></div><div class="lp-card"></div></div>
+              <div class="lp-cta"></div>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="card-tags"><span class="tag">HTML/CSS</span><span class="tag">GSAP</span></div>
+            <h3>Product LP</h3>
+            <p>AI構成設計のランディングページ</p>
+          </div>
+        </div>
+
+        <!-- 3: Analytics Dashboard -->
+        <div class="work-card fade-up">
+          <div class="frame-header">
+            <div class="dots"><span class="r"></span><span class="y"></span><span class="g"></span></div>
+            <div class="url-bar">dashboard.example.com</div>
+          </div>
+          <div class="frame-body">
+            <div class="screen screen-dash">
+              <div class="side"></div>
+              <div class="body">
+                <div class="stat-row"><div class="stat"></div><div class="stat"></div><div class="stat"></div></div>
+                <div class="chart"></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="card-tags"><span class="tag">React</span><span class="tag">D3.js</span></div>
+            <h3>Analytics Dashboard</h3>
+            <p>リアルタイムデータ可視化ダッシュボード</p>
+          </div>
+        </div>
+
+        <!-- 4: Code Agent -->
+        <div class="work-card fade-up">
+          <div class="frame-header">
+            <div class="dots"><span class="r"></span><span class="y"></span><span class="g"></span></div>
+            <div class="url-bar">code-agent.dev</div>
+          </div>
+          <div class="frame-body">
+            <div class="screen screen-agent">
+              <div class="tline pk"></div>
+              <div class="tline" style="width:80%"></div>
+              <div class="tline gn"></div>
+              <div class="tline dm"></div>
+              <div class="tline pk" style="width:65%"></div>
+              <div class="tline" style="width:50%"></div>
+              <div class="tline gn" style="width:75%"></div>
+              <div class="tline dm" style="width:35%"></div>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="card-tags"><span class="tag">Python</span><span class="tag">LangChain</span></div>
+            <h3>Code Agent</h3>
+            <p>自律型コーディングエージェント</p>
+          </div>
+        </div>
+
+        <!-- 5: Image Generation Studio — Featured -->
+        <div class="work-card featured fade-up">
+          <div class="frame-header">
+            <div class="dots"><span class="r"></span><span class="y"></span><span class="g"></span></div>
+            <div class="url-bar">image-gen-studio.app</div>
+          </div>
+          <div class="frame-body">
+            <div class="screen screen-img">
+              <div class="panel">
+                <div></div><div style="width:60%"></div><div></div><div style="width:80%"></div>
+                <div class="pbutton"></div>
+              </div>
+              <div class="grid4"><div></div><div></div><div></div><div></div></div>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="card-tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">Imagen 4</span>
+              <span class="tag">Vertex AI</span>
+            </div>
+            <h3>Image Generation Studio</h3>
+            <p>Google Imagen 4 APIを活用した画像生成スタジオ。プロンプトエディタとバッチ生成機能を搭載。</p>
+          </div>
+        </div>
+
+        <!-- 6: AI Markdown Editor -->
+        <div class="work-card fade-up">
+          <div class="frame-header">
+            <div class="dots"><span class="r"></span><span class="y"></span><span class="g"></span></div>
+            <div class="url-bar">md-editor.app</div>
+          </div>
+          <div class="frame-body">
+            <div class="screen screen-editor">
+              <div class="left">
+                <div class="eline"></div><div class="eline s"></div><div class="eline"></div>
+                <div class="eline m"></div><div class="eline s"></div><div class="eline"></div>
+              </div>
+              <div class="right">
+                <div class="eline t"></div><div class="eline"></div><div class="eline s"></div>
+                <div class="eline"></div><div class="eline m"></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="card-tags"><span class="tag">React</span><span class="tag">AI Assist</span></div>
+            <h3>AI Markdown Editor</h3>
+            <p>AI補完付きマークダウンエディタ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-divider fade-up"></div>
+      <div class="section-label fade-up">Skills</div>
+      <h2 class="section-title fade-up">Tech Stack</h2>
+      <p class="section-sub fade-up">AI開発で活用している技術群</p>
+      <div class="skills-grid">
+        <div class="skill-card fade-up">
+          <h3>🧠 AI / ML</h3>
+          <ul>
+            <li>Claude API</li><li>OpenAI GPT-4</li><li>Gemini</li>
+            <li>LangChain</li><li>Vertex AI</li>
+          </ul>
+        </div>
+        <div class="skill-card fade-up">
+          <h3>💻 Frontend</h3>
+          <ul>
+            <li>React / Next.js</li><li>TypeScript</li><li>Tailwind CSS</li>
+            <li>Three.js</li><li>GSAP</li>
+          </ul>
+        </div>
+        <div class="skill-card fade-up">
+          <h3>⚙️ Backend</h3>
+          <ul>
+            <li>Node.js</li><li>Python / FastAPI</li><li>PostgreSQL</li>
+            <li>Supabase</li><li>Firebase</li>
+          </ul>
+        </div>
+        <div class="skill-card fade-up">
+          <h3>🛠 Tools</h3>
+          <ul>
+            <li>Claude Code</li><li>Cursor</li><li>GitHub Copilot</li>
+            <li>Docker</li><li>Vercel</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-divider fade-up"></div>
+      <div class="section-label fade-up">Contact</div>
+      <h2 class="section-title fade-up">お気軽にどうぞ</h2>
+      <p class="section-sub fade-up">AI開発に関するご相談・お仕事のご依頼をお待ちしています</p>
+      <div class="contact-links fade-up">
+        <a href="#" class="c-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="#" class="c-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          X
+        </a>
+        <a href="#" class="c-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+          Email
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 AI Developer Portfolio. All rights reserved.</p>
+    </div>
+    <button id="backToTop" style="position:fixed;bottom:32px;right:32px;width:40px;height:40px;border-radius:50%;background:var(--bg);border:1px solid var(--border);cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;transition:all 0.3s;pointer-events:none;box-shadow:0 2px 8px rgba(0,0,0,0.08);" aria-label="Back to top">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+  </footer>
+
+  <script src="src/scripts/main.js"></script>
+</body>
+</html>
